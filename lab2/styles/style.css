@@ -1,0 +1,25 @@
+body {
+ margin: auto;
+  width: 80%;
+}
+
+header, section, article, nav, aside, footer, div {
+  font-family: sans-serif;
+  border:1px dotted #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+.warning{
+  font-weight: bold;
+}
+
+#PageContent{
+  border-style: dashed;
+  border-color: red;
+}
+
+#first-para{
+  font-weight: bold;
+}
