@@ -8,23 +8,23 @@ header{
 }
 
 #dogLogo {
-  height: 5%;
-  width: 5%;
+  height: 10%;
+  width: 10%;
   border: 2px dotted #000;
 }
 
 #mainHeader {
  float: right;
  font-family: sans-serif;
- width:90%;
+ width:80%;
  border: 2px dotted #000;
  text-align: center;
  margin: 0px;
  align-self: stretch;
+ align-items: center;
 }
 
 .headerClass{
-  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -33,16 +33,18 @@ header{
 }
 
 .menuBar{
-  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border: 1px dotted #000;
   margin: 10px;
+  padding-left: 15px;
 }
 
 .menuItem{
   border: 2px dotted #000;
+  height: 80%;
+  width: 5%;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -51,9 +53,41 @@ header{
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: center;
+  font-weight: bold;
+
 }
 
 #mainBody{
+  display: flex;
+  flex-direction: row;
+  border: 1px dotted #000;
+  justify-content: space-around;
+  margin: 10px;
+  /* padding: 20px; */
+
+}
+
+#dogMain{
+  width: 49%;
+  height:30%;
   border: 2px dotted #000;
+  /* margin-right:10px; */
+}
+
+.paw{
+  height: 30%;
+  width: 30%;
+  border: 2px dotted #000;
+}
+
+.boxes{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px dotted #000;
+  width: 49%;
 
 }
